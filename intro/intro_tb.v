@@ -11,7 +11,7 @@ intro DUT(A, B);
 initial begin
 
     $dumpfile("intro_tb.vcd");
-    $dumpvars(9, intro_tb);
+    $dumpvars(0, intro_tb);
 
     A = 0;
 
