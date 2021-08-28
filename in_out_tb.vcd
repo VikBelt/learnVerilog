@@ -1,0 +1,41 @@
+$date
+	Fri Aug 27 22:55:31 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module in_out_tb $end
+$var wire 1 ! out2 $end
+$var wire 1 " out1 $end
+$var reg 1 # in1 $end
+$var reg 1 $ in2 $end
+$var reg 1 % in3 $end
+$scope module DUT $end
+$var wire 1 # in1 $end
+$var wire 1 $ in2 $end
+$var wire 1 % in3 $end
+$var wire 1 " out1 $end
+$var wire 1 ! out2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+0$
+0#
+0"
+0!
+$end
+#20
+1!
+1#
+#40
+1$
+#60
+1"
+1%
+#100
