@@ -1,0 +1,82 @@
+$date
+	Sat Aug 28 22:22:18 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module reg4_tb $end
+$var wire 4 ! Q [3:0] $end
+$var reg 1 " CLK $end
+$var reg 4 # D [3:0] $end
+$var reg 1 $ RST $end
+$scope module DUT $end
+$var wire 1 " CLK $end
+$var wire 4 % D [3:0] $end
+$var wire 1 $ RST $end
+$var reg 4 & Q [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+b0 %
+1$
+b0 #
+1"
+b0 !
+$end
+#10
+0$
+0"
+#20
+1"
+#30
+b1 #
+b1 %
+0"
+#40
+b1 !
+b1 &
+1"
+#50
+b10 #
+b10 %
+0"
+#60
+b10 !
+b10 &
+1"
+#70
+b11 #
+b11 %
+0"
+#80
+b11 !
+b11 &
+1"
+#90
+b100 #
+b100 %
+0"
+#100
+b100 !
+b100 &
+1"
+#110
+b0 !
+b0 &
+1$
+0"
+#120
+0$
+1"
+#130
+0"
+#140
+b100 !
+b100 &
+1"
